@@ -59,8 +59,7 @@ public class CLIdemo {
         PrintWriter out = new PrintWriter(System.out);
 
         DataSource dataSource = new DataSource("C:\\Users\\Инна\\Documents\\NetBeansProjects\\TUIdemo\\src\\com\\mybank\\data\\test.dat");
-        //dataSource.loadData();
-        
+         
         
         while ((line = readLine(reader, "")) != null) {
             if ("help".equals(line)) {
